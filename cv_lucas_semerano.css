@@ -1,0 +1,78 @@
+html {
+    background-image:url(images/image_de_fond.png);
+    background-attachment:fixed;
+    background-position:center center;
+    background-size: 2550px;
+}
+
+body {
+  background-image:url(images/image_de_fond.png);
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 2550px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #ffdf32;
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 30px 20px 30px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #ff704c;
+    text-align: center
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1;
+    color: #b72334;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+h3 {
+    margin-top : 40px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #b72334;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #b72334;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+img.profil {
+    width: 50%;
+    border: 10px solid #000000;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+  background-color : #383838;
+  color : #b72334;
+}
